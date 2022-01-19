@@ -1,5 +1,5 @@
 {
-    "name": "dawid_dahl/my-cms-ui",
+    "name": "dawid-dahl-kreationsbyran/cms-ui-replacing",
     "description": "My own module.",
     "type": "silverstripe-vendormodule",
     "keywords": [
@@ -18,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Dawid_Dahl\\MyCmsUi\\": "src/",
-            "Dawid_Dahl\\MyCmsUi\\Tests\\": "tests/"
+            "DawidDahl\\TextDropdownField\\": "src/",
+            "DawidDahl\\TextDropdownField\\Tests\\": "tests/"
         }
     },
     "extra": {

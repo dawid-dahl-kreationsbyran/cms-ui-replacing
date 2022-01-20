@@ -3,9 +3,9 @@ import { loadComponent } from "lib/Injector";
 import React from "react";
 import ReactDOM from "react-dom";
 
-jQuery.entwine("ss", (jQuery) => {
+jQuery.entwine("ss", ($) => {
   // We're matching to the field based on class. We added the last class in the field
-  jQuery(".js-injector-boot .form__field-holder .text-dropdown-field").entwine({
+  $(".js-injector-boot .form__field-holder .text-dropdown-field").entwine({
     onmatch() {
       // We're using the injector to create an instance of the react component we can use
       const Component = loadComponent("TextDropdownField");

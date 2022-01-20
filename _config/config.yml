@@ -1,0 +1,6 @@
+---
+Name: textdropdownfield
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - "dawid-dahl-kreationsbyran/cms-ui-replacing:client/dist/js/bundle.js"

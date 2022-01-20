@@ -7,8 +7,9 @@ export default () => {
     TextDropdownField,
     CharacterCounter,
   });
+  
+  Injector.transform("character-count-transform", (updater) => {
+    updater.component("TextField", CharacterCounter);
+  });
 };
 
-Injector.transform("character-count-transform", (updater) => {
-  updater.component("TextField", CharacterCounter);
-});
